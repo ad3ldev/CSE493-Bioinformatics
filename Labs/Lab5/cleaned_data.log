@@ -1,0 +1,37 @@
+PLINK v1.90b7.1 64-bit (18 Oct 2023)
+Options in effect:
+  --bfile Qatari156_filtered_pruned
+  --geno 0.02
+  --hwe 10E-06
+  --maf 0.2
+  --make-bed
+  --noweb
+  --out cleaned_data
+
+Hostname: Adels-Laptop
+Working directory: /Users/adele/Desktop/College/Year4/Term1/CSE493-Bioinformatics/Labs/Lab5
+Start time: Thu Nov 30 16:54:33 2023
+
+Note: --noweb has no effect since no web check is implemented yet.
+Random number seed: 1701356073
+8192 MB RAM detected; reserving 4096 MB for main workspace.
+67735 variants loaded from .bim file.
+156 people (49 males, 107 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 156 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 1388 het. haploid genotypes present (see cleaned_data.hh ); many
+commands treat these as missing.
+Total genotyping rate is 0.998816.
+0 variants removed due to missing genotype data (--geno).
+Warning: --hwe observation counts vary by more than 10%, due to the X
+chromosome.  You may want to use a less stringent --hwe p-value threshold for X
+chromosome variants.
+--hwe: 0 variants removed due to Hardy-Weinberg exact test.
+36041 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+31694 variants and 156 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to cleaned_data.bed + cleaned_data.bim + cleaned_data.fam ... done.
+
+End time: Thu Nov 30 16:54:33 2023

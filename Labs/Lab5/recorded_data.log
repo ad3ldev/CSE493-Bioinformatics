@@ -1,0 +1,27 @@
+PLINK v1.90b7.1 64-bit (18 Oct 2023)
+Options in effect:
+  --bfile pruned_data
+  --noweb
+  --out recorded_data
+  --recode A
+
+Hostname: Adels-Laptop
+Working directory: /Users/adele/Desktop/College/Year4/Term1/CSE493-Bioinformatics/Labs/Lab5
+Start time: Thu Nov 30 16:55:17 2023
+
+Note: --noweb has no effect since no web check is implemented yet.
+Random number seed: 1701356117
+8192 MB RAM detected; reserving 4096 MB for main workspace.
+31694 variants loaded from .bim file.
+156 people (49 males, 107 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 156 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 1075 het. haploid genotypes present (see recorded_data.hh ); many
+commands treat these as missing.
+Total genotyping rate is 0.998719.
+31694 variants and 156 people pass filters and QC.
+Note: No phenotypes present.
+--recode A to recorded_data.raw ... done.
+
+End time: Thu Nov 30 16:55:18 2023

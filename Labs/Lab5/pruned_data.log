@@ -1,0 +1,53 @@
+PLINK v1.90b7.1 64-bit (18 Oct 2023)
+Options in effect:
+  --bfile cleaned_data
+  --indep-pairwise 50 5 0.5
+  --make-bed
+  --noweb
+  --out pruned_data
+
+Hostname: Adels-Laptop
+Working directory: /Users/adele/Desktop/College/Year4/Term1/CSE493-Bioinformatics/Labs/Lab5
+Start time: Thu Nov 30 16:54:33 2023
+
+Note: --noweb has no effect since no web check is implemented yet.
+Random number seed: 1701356073
+8192 MB RAM detected; reserving 4096 MB for main workspace.
+31694 variants loaded from .bim file.
+156 people (49 males, 107 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 156 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 1075 het. haploid genotypes present (see pruned_data.hh ); many
+commands treat these as missing.
+Total genotyping rate is 0.998719.
+31694 variants and 156 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to pruned_data.bed + pruned_data.bim + pruned_data.fam ... done.
+Pruned 0 variants from chromosome 1, leaving 2395.
+Pruned 0 variants from chromosome 2, leaving 2380.
+Pruned 0 variants from chromosome 3, leaving 2006.
+Pruned 0 variants from chromosome 4, leaving 1975.
+Pruned 0 variants from chromosome 5, leaving 1937.
+Pruned 0 variants from chromosome 6, leaving 1749.
+Pruned 0 variants from chromosome 7, leaving 1676.
+Pruned 0 variants from chromosome 8, leaving 1506.
+Pruned 0 variants from chromosome 9, leaving 1398.
+Pruned 0 variants from chromosome 10, leaving 1623.
+Pruned 0 variants from chromosome 11, leaving 1455.
+Pruned 0 variants from chromosome 12, leaving 1533.
+Pruned 0 variants from chromosome 13, leaving 1155.
+Pruned 0 variants from chromosome 14, leaving 1081.
+Pruned 0 variants from chromosome 15, leaving 1085.
+Pruned 0 variants from chromosome 16, leaving 1150.
+Pruned 0 variants from chromosome 17, leaving 1022.
+Pruned 0 variants from chromosome 18, leaving 1042.
+Pruned 0 variants from chromosome 19, leaving 676.
+Pruned 0 variants from chromosome 20, leaving 899.
+Pruned 0 variants from chromosome 21, leaving 502.
+Pruned 0 variants from chromosome 22, leaving 546.
+Pruned 0 variants from chromosome 23, leaving 903.
+Pruning complete.  0 of 31694 variants removed.
+Marker lists written to pruned_data.prune.in and pruned_data.prune.out .
+
+End time: Thu Nov 30 16:54:33 2023
